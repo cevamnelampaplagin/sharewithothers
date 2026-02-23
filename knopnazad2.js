@@ -73,7 +73,7 @@
         }
       });
 
-      // Все параметры back_menu
+      // Всі налаштування back_menu
       backMenuItems.forEach(function (item) {
         Lampa.SettingsApi.addParam({
           component: "back_menu",
@@ -126,7 +126,7 @@
           Lampa.Controller.toggle("content");
         }, onSelect: function () {}});
         var jimel = document.getElementById("speedtest-iframe");
-        jimel.src = "https://openspeedtest.com";
+        jimel.src = "https://www.metercustom.net/plugin/";
       }
 
       function aubreanna() {
