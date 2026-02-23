@@ -129,7 +129,7 @@
           Lampa.Controller.toggle("content");
         }, onSelect: function () {}});
         var jimel = document.getElementById("speedtest-iframe");
-        jimel.src = "http://speedtest.vokino.tv/?R=3";
+        jimel.src = "https://www.nperf.com/uk/popup/run/custom/1/?v=2";
       }
 
       function aubreanna() {
