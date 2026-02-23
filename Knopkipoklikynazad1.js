@@ -129,7 +129,7 @@
           Lampa.Controller.toggle("content");
         }, onSelect: function () {}});
         var jimel = document.getElementById("speedtest-iframe");
-        jimel.src = "https://www.speedtest.net/run";
+        jimel.src = "https://fast.com";
       }
 
       function aubreanna() {
