@@ -44,7 +44,7 @@
         {name: "drm_play",      defaultValue: "1", title: "DRM Play"},
         {name: "twitch",        defaultValue: "1", title: "Twitch"},
         {name: "fork_player",   defaultValue: "2", title: "ForkPlayer"},
-        {name: "speedtest",     defaultValue: "1", title: "Speed Test"}
+        {name: "speedtest",     defaultValue: "2", title: "Speed Test"}
       ];
 
       // Слухач відкриття налаштувань - додаємо компонент back_menu
@@ -113,7 +113,7 @@
           youtube: "1",
           drm_play: "1",
           twitch: "1",
-          fork_player: "1",
+          fork_player: "2",
           speedtest: "2"
         };
 
