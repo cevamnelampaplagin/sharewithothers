@@ -26,7 +26,7 @@
         { id: 'crossy',   title: 'Crossy Road',      desc: 'Біжи вперед, не потрапляй під машини' },
         { id: 'minesweeper', title: 'MineSweeper',         desc: 'Знайди всі міни, не будучи підірваними' },
         { id: 'checkers', title: 'Шашки',            desc: 'Класика проти компютера' },
-        { id: 'match3',   title: 'Три в ряд',         desc: 'Міняйте камені, збирайте лінії' }
+        { id: 'match3',   title: 'Три в ряд',         desc: 'Міняйте камені, збирайте лінії' },
         { id: 'platformer', title: 'Ленаріо',         desc: 'Біжи, стрибай, перемагай ворогів' }
     ];
 
