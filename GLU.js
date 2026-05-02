@@ -2106,7 +2106,7 @@
         this.lose = function () {
             gameOver = true;
             this.stopLoop();
-            overlay.html('Гра закінчена<br>Счёт: ' + score + '<br><span class="g-sub">OK — заново</span>').addClass('show');
+            overlay.html('Гра закінчена<br>Рахунок: ' + score + '<br><span class="g-sub">OK — заново</span>').addClass('show');
         };
 
         this.draw = function () {
@@ -2344,7 +2344,7 @@
         this.lose = function () {
             gameOver = true;
             this.stopLoop();
-            overlay.html('Гра закінчена<br>Счёт: ' + score + '<br><span class="g-sub">OK — заново</span>').addClass('show');
+            overlay.html('Гра закінчена<br>Рахунок: ' + score + '<br><span class="g-sub">OK — заново</span>').addClass('show');
         };
 
         this.draw = function () {
@@ -2746,7 +2746,7 @@
                 level++;
                 setRecord('tanks', score);
                 this.updateUI();
-                overlay.html('Рівень пройдено!<br>Счёт: ' + score + '<br><span class="g-sub">OK — наступний</span>').addClass('show');
+                overlay.html('Рівень пройдено!<br>Рахунок: ' + score + '<br><span class="g-sub">OK — наступний</span>').addClass('show');
             }
         };
 
@@ -3401,7 +3401,7 @@
                 level++;
                 setRecord('invaders', score);
                 this.updateUI();
-                overlay.html('Рівень пройдено!<br>Счёт: ' + score + '<br><span class="g-sub">OK — наступний</span>').addClass('show');
+                overlay.html('Рівень пройдено!<br>Рахунок: ' + score + '<br><span class="g-sub">OK — наступний</span>').addClass('show');
                 return;
             }
             var moveInterval = Math.max(8, 30 - Math.floor((COLS_A * ROWS_A - alive.length) / 2) - level * 2);
