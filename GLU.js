@@ -3808,7 +3808,7 @@
                 for (var i = 0; i < lane.items.length; i++) {
                     var c = lane.items[i];
                     if (player.col + 0.7 > c.x && player.col + 0.3 < c.x + c.len) {
-                        return this.die('Сбила машина');
+                        return this.die('Збило авто');
                     }
                 }
                 player.onLog = null;
