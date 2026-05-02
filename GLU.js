@@ -701,7 +701,7 @@
             root.html(
                 '<div class="game-wrap">' +
                   '<div class="game-info">' +
-                    '<span>Счёт: <b class="g-score">0</b></span>' +
+                    '<span>Рахунок: <b class="g-score">0</b></span>' +
                     '<span>Рекорд: <b class="g-record">' + getRecord('snake') + '</b></span>' +
                     '<span class="g-hint">Стрілки - рух</span>' +
                   '</div>' +
