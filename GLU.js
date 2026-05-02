@@ -3822,7 +3822,7 @@
                         break;
                     }
                 }
-                if (!onLog) return this.die('Утонул');
+                if (!onLog) return this.die('Втопив');
                 player.onLog = onLog;
             } else if (lane.type === 3 && lane.trainActive) {
                 // поїзд (довжиною 8 клітин)
