@@ -841,7 +841,7 @@
                 '<div class="game-wrap">' +
                   '<div class="game-info">' +
                     '<span>Рахунок: <b class="g-score">0</b></span>' +
-                    '<span>Линії: <b class="g-lines">0</b></span>' +
+                    '<span>Лінії: <b class="g-lines">0</b></span>' +
                     '<span>Рівень: <b class="g-level">1</b></span>' +
                     '<span>Рекорд: <b class="g-record">' + getRecord('tetris') + '</b></span>' +
                     '<span class="g-hint">↑ — поворот, ↓ — прискорення, OK — поворот</span>' +
