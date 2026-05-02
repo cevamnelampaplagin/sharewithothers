@@ -4225,7 +4225,7 @@
                 gameOver = true;
                 this.revealAll();
                 this.draw();
-                overlay.html('Подорвался!<br><span class="g-sub">OK — заново</span>').addClass('show');
+                overlay.html('Підірвався!<br><span class="g-sub">OK — заново</span>').addClass('show');
                 if (timerId) clearInterval(timerId);
                 return;
             }
