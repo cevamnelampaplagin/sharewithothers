@@ -2,20 +2,27 @@
 name: Deploy static content to Pages
 
 on:
+  # Runs on pushes targeting the default branch
   push:
     branches: ["main"]
+
+  # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
+# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
   contents: read
   pages: write
   id-token: write
 
+# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
+# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
 concurrency:
   group: "pages"
   cancel-in-progress: false
 
 jobs:
+  # Single deploy job since we're just deploying
   deploy:
     environment:
       name: github-pages
@@ -24,24 +31,14 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-
-      # If you have a build step (npm run build, hugo, etc.), add it here and set path to build output:
-      # - name: Build site
-      #   run: npm run build
-      #
-      # Then set path: './public' or './dist' below instead of '.'.
-
       - name: Setup Pages
         uses: actions/configure-pages@v5
-
-      - name: Upload artifact for Pages (single)
-        # Use the recommended upload-pages-artifact action (stable version)
-        uses: actions/upload-pages-artifact@v1
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
         with:
-          # Prefer specifying the build output directory if you have one (e.g. './public' or './dist').
-          # Using '.' uploads the whole repository; keep it only if that's intended.
+          # Upload entire repository
           path: '.'
-
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v5
+        uses: actions/deploy-page
+s@v4
